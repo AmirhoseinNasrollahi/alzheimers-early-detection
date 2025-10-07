@@ -1,0 +1,15 @@
+name: alz-early
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - nibabel
+  - pandas
+  - scikit-image
+  - scikit-learn
+  - matplotlib
+  - pyyaml
+  - tqdm
+  - pip

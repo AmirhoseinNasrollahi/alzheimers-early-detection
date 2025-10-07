@@ -1,9 +1,17 @@
-numpy
-scipy
-nibabel
-pandas
-scikit-image
-scikit-learn
-matplotlib
-tqdm
-pyyaml
+# Core scientific stack
+numpy>=1.24,<2.1
+scipy>=1.10
+pandas>=2.0
+
+# Medical imaging I/O
+SimpleITK>=2.3
+nibabel>=5.2
+
+# Plotting (used by fft_analyzer)
+matplotlib>=3.7
+
+# CLI niceties (optional but used in your code)
+tqdm>=4.66
+
+# Distance correlation (optional but your code supports it)
+dcor>=0.6

@@ -1,16 +1,26 @@
 paths:
-  input_dir: "data/input"
-  roi_dir: "data/roi"
-  mni_image: "data/mni/MNI152_T1_1mm_brain.nii.gz"
-  output_dir: "outputs"
+  # ROI extractor (roi_dir_interactive.py)
+  reg_dir: "data/registered"
+  seg_dir: "data/segmentations"
+  roi_out: "outputs/roi_extraction"
 
-processing:
-  correlation:
-    method: "pearson"
-    freq_domain: true
-  fft:
-    window: "hann"
-    normalize: true
+  # Correlation (brain_roi_correlation.py)
+  cases_dir: "outputs/roi_extraction"     # ROI nii.gz files from previous step
+  atlas_dir: "data/mni/hippocampus_atlas" # or a single file path
+  corr_out: "outputs/correlation"
 
-reproducibility:
+  # FFT & spectral analysis (fft_analyzer.py)
+  fft_input: "outputs/roi_extraction"
+  fft_out: "outputs/fft"
+
+fft:
+  n_bins: 256
+  n_bands: 8
+  n_boot: 2000
+  ci: 0.95
   seed: 42
+
+correlation:
+  normalize: false
+  mask_nonzero_union: true
+  fft_shift: false

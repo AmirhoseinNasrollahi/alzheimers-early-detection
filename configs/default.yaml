@@ -1,0 +1,16 @@
+paths:
+  input_dir: "data/input"
+  roi_dir: "data/roi"
+  mni_image: "data/mni/MNI152_T1_1mm_brain.nii.gz"
+  output_dir: "outputs"
+
+processing:
+  correlation:
+    method: "pearson"
+    freq_domain: true
+  fft:
+    window: "hann"
+    normalize: true
+
+reproducibility:
+  seed: 42

@@ -8,7 +8,7 @@
 
 ---
 
-## 🧠 Project Overview
+##  Project Overview
 
 This repository integrates three reproducible imaging-analysis modules:
 1. **ROI extraction** – isolates hippocampal regions from MRI segmentations.  
@@ -19,7 +19,7 @@ All data processing steps are fully modular and transparent, designed for reprod
 
 ---
 
-## 🔷 System Flowchart (Mermaid Summary)
+## 🔷 System Flowchart
 
 ```mermaid
 flowchart TD
@@ -53,7 +53,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Quick Start
+## ☑ Quick Start
 
 ### 1️⃣ ROI Extraction
 ```bash

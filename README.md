@@ -3,6 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![Status](https://img.shields.io/badge/Release-v1.0.0-success)
+[![CI](https://github.com/AmirhoseinNasrollahi/alzheimers-early-detection/actions/workflows/ci.yml/badge.svg)](https://github.com/AmirhoseinNasrollahi/alzheimers-early-detection/actions/workflows/ci.yml)
 
 > A reproducible open-source pipeline for **early detection of Alzheimer’s disease** using hippocampal ROI extraction, spatial & frequency-domain correlation with the MNI atlas, and Fourier-based spectral analysis.
 

@@ -29,7 +29,7 @@ flowchart TD
     D --> E[Correlation metrics\nspatial + frequency CSV]
     E --> F[Frequency Spectrum Analysis\nfft_analyzer.py]
     F --> G[Final outputs\nPower spectra, CSV reports, plots]
-    G --> H[Statistical & visual interpretation]
+    G --> H[Statistical and visual interpretation]
 ```
 
 ---

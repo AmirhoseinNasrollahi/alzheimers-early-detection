@@ -133,14 +133,16 @@ alzheimers-early-detection/
 ![FFT Spectrum](docs/Fourier-Transform.png)
 
 ---
+## Contributions
+The core concept, research direction, and scientific supervision of this project were provided by Prof. Shahyar Saramad and Prof. Saeed Setayeshi.   The implementation, coding, pipeline development, and data analysis were carried out by  Amirhosein Nasrollahi  under the supervision of Prof. Saramad and Prof. Setayeshi.  
 
+---
 ## 📚 Citation
 
 If you use this repository, please cite:
 
 ```
-Nasrollahi, A. (2025). Alzheimer’s Early Detection via Hippocampal ROI Correlation and Frequency Analysis (v1.0.0). GitHub. 
-https://github.com/AmirhoseinNasrollahi/alzheimers-early-detection
+Nasrollahi, A.; Saramad, S.; Setayeshi, S. (2025). Alzheimer’s Early Detection Using Hippocampal ROI: Four Correlation Measures in Image and Frequency Domains (v1.0.0). GitHub. [https://github.com/AmirhoseinNasrollahi/alzheimers-early-detection]
 ```
 
 ---

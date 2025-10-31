@@ -20,7 +20,7 @@ All data processing steps are fully modular and transparent, designed for reprod
 
 ---
 
-## 🔷 System Flowchart
+##  System Flowchart
 
 ```mermaid
 flowchart TD
@@ -35,7 +35,7 @@ flowchart TD
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 You can reproduce the pipeline in either `conda` or `pip` environments.
 
@@ -54,7 +54,7 @@ pip install -r requirements.txt
 
 ---
 
-## ☑ Quick Start
+##  Quick Start
 
 ### 1️⃣ ROI Extraction
 ```bash
@@ -78,7 +78,7 @@ Full documentation for each module is available in the [`docs/`](docs) folder:
 
 ---
 
-## 🧬 Data Source and Ethics
+##  Data Source and Ethics
 
 MRI data used in this study were obtained from the **Alzheimer’s Disease Neuroimaging Initiative (ADNI)** database under proper data-use agreements.
 
@@ -91,7 +91,7 @@ This repository only provides reproducible **code, configurations, and pipeline 
 
 ---
 
-## 📊 Outputs
+##  Outputs
 
 Each module produces structured outputs:
 - `.nii.gz` – processed hippocampal ROI  
@@ -102,7 +102,7 @@ All outputs are automatically saved under the `/outputs/` directory.
 
 ---
 
-## 🧩 Repository Structure
+##  Repository Structure
 ```
 alzheimers-early-detection/
 ├─ scripts/
@@ -137,7 +137,7 @@ alzheimers-early-detection/
 The core concept, research direction, and scientific supervision of this project were provided by Prof. Shahyar Saramad and Prof. Saeed Setayeshi.   The implementation, coding, pipeline development, and data analysis were carried out by  Amirhosein Nasrollahi  under the supervision of Prof. Saramad and Prof. Setayeshi.  
 
 ---
-## 📚 Citation
+##  Citation
 
 If you use this repository, please cite:
 
@@ -147,7 +147,7 @@ Nasrollahi, A.; Saramad, S.; Setayeshi, S. (2025). Alzheimer’s Early Detection
 
 ---
 
-## ⚖️ License
+##  License
 Released under the **MIT License**.  
 You are free to use and modify the code with proper attribution.
 

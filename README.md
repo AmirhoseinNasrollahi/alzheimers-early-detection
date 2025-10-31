@@ -24,13 +24,15 @@ All data processing steps are fully modular and transparent, designed for reprod
 
 ```mermaid
 flowchart TD
-    A[Input MRI from ADNI\nT1-weighted 3T 1.2mm slices] --> B[ROI Extraction\nroi_dir_interactiv.py]
-    B --> C[ROI NIfTI output .nii.gz]
-    C --> D[Spatial and FFT Correlation\nBrain_ROI_Correlation.py]
-    D --> E[Correlation metrics\nspatial + frequency CSV]
-    E --> F[Frequency Spectrum Analysis\nfft_analyzer.py]
-    F --> G[Final outputs\nPower spectra, CSV reports, plots]
-    G --> H[Statistical and visual interpretation]
+    A([" Input MRI<br/>ADNI / T1-weighted 3T (1.2mm slices)"]) --> 
+    B([" ROI Extraction<br/>nroi_dir_interactiv.py"])
+    B --> C([" ROI NiFTI output (.nii.gz)"])
+    C --> D([" Spatial + FFT Correlation<br/>Brain_ROI_Correlation.py"])
+    D --> E([" Correlation metrics<br/>nspatial + frequency CSV"])
+    E --> F([" Frequency Spectrum Analysis<br/>nfft_analyzer.py"])
+    F --> G([" Final outputs<br/>Power spectra, CSV, plots"])
+    G --> H([" Statistical & visual interpretation"])
+
 ```
 
 ---

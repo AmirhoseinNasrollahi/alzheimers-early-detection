@@ -86,7 +86,7 @@ MRI data used in this study were obtained from the **Alzheimer’s Disease Neuro
 
 | Modality | Slices | Field | Type | Thickness | Sequence | #Images | Age range |
 |-----------|---------|--------|--------|-------------|-----------|------------|-------------|
-| MRI | 176 | 3T | T1-weighted | 1.2 mm | MP-RAGE | 50 per group | 50–70 years |
+| MRI | 176 | 3T | T1-weighted | 1.2 mm | MP-RAGE | 70 per group | 50–70 years |
 
 No raw MRI data are hosted here in respect of participant confidentiality.  
 This repository only provides reproducible **code, configurations, and pipeline documentation**, ensuring full transparency without compromising privacy.
